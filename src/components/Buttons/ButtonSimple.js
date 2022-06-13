@@ -9,6 +9,6 @@ export const ButtonSimple = ({ bgColor, text, icon }) => {
     // const { bgColor, text, icon } = props
 
     return (
-        <button className={`btn btn-${bgColor ? bgColor : "dark"}`}><i className={`${icon} me-2`}></i>{text ? text : "Write some Text"}</button>
+        <button className={`btn btn-${bgColor ? bgColor : "dark"}`}><i className={`${icon} me-2`}></i>{text ? text : "Write Text"}</button>
     )
 }
